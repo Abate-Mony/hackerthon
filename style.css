@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color:yellow;
+    background-color:darkgrey;
+    padding: 8px 16px;
+    border-radius: 4px 10px;
+    transition: all 0.4s ease;
+}
+nav{
+    display: grid;grid-template-columns: 40% 60%;
+    text-transform: uppercase;
+    box-shadow: 0px 1px 1px rgb(226, 222, 222) ;
+    background-color:black;
+}
+.left-nav{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    /* padding-left: 10px; */
+}
+.right-nav{
+display: flex;
+/* border: 1px solid black; */
+justify-content: space-between;
+padding: 0.6rem .8rem;
+font-size: 1rem;
+}
+.slider{
+    /* border: 1px solid orange; */
+    height: 80vh;
+    padding: 0!important;
+    margin: 0!important;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.imageandtext{
+    /* border: 1px solid gray; */
+
+}
+.textinsection1{
+    /* border: 1px solid gray; */
+    width: 80%;
+    display: flex;
+    padding-left: 20px;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+.textinsection1 .bigtext{
+font-size: 1.5rem;
+font-weight: 600;
+}
+
+.textinsection1 .button{
+width: 15%;
+border: 1px solid gray;
+border-radius: 5px;
+padding: 0.1rem .2rem; 
+display: flex;
+align-items: center;
+justify-content: center;
+white-space: nowrap;
+}
+.textinsection1 .button:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s ease;
+}
+
+.section-about{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+
+ margin-left:20px;
+
+}
+.imgs{
+  background-color: aqua; 
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.imgs1{
+
+    /* background-color: aqua; 
+    height: 50px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; */
+  }
+.card1 {
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+.card1:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.9);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+.card1 h6{
+    text-align: center;
+}
+.jl{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:-23px;
+}
+@media screen and (min-width:1024px){
+    nav{
+        display: grid;grid-template-columns: 60% 40%;
+        text-transform: uppercase;
+    }
+}

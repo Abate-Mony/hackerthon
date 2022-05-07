@@ -1,0 +1,54 @@
+footer{
+height: 80vh;
+position: relative;
+}
+.form-container{
+    display: grid;grid-template-columns: 50% 50%;
+height: 40vh;
+background-color: rgb(168, 167, 167);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    padding: 1rem 2rem;
+}
+@media screen and (min-width:1024px) {
+    form{
+        width: 400px;
+        overflow: hidden;
+    }
+}
+#sub{
+    width: 100px;
+    height: 40px;
+    background-color:pink;
+    border-radius: 5px;
+    border: none;
+}
+.call-us{
+
+    box-shadow: 0px 0px 5px 2px gray;
+
+    background-color: white;
+position: absolute;
+height: 40vh;
+width: 40%;
+right: 10%;
+bottom: 25%;;
+}
+.call-us h1,h2,p{
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid orange; */
+}
+.get-in{
+    background-color:pink;
+
+    padding: 1rem;
+    height: 40vh;
+}
+.get-in h1
+.get-in h1,h4, p{
+    width: 50%;
+}
